@@ -1,0 +1,96 @@
+/* Base styles that apply to all screen sizes */
+.SectionHeader {
+    padding-top: 30px; /* Reduced padding for smaller screens */
+    padding-bottom: 30px; /* Reduced padding for smaller screens */
+    font-weight: bold;
+    font-size: 40px; /* Reduced font size for smaller screens */
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.AllHolder,
+.AllHolder2 {
+    background: rgba(218, 208, 208, 0.7) url(https://img.freepik.com/premium-photo/background-blue-gradient-abstract-texture-website-template-design_218381-8437.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-content: center;
+    min-height: 100vh; /* Changed from min-height: 100% to 100vh; to ensure full viewport height */
+    text-align: center;
+    background-blend-mode: darken;
+}
+
+.ImplementationImageHolder {
+    padding-top: 5px; /* Reduced padding for smaller screens */
+    padding-bottom: 10px; /* Reduced padding for smaller screens */
+}
+
+.WhyUsHolder {
+    padding-bottom: 10px; /* Reduced padding for smaller screens */
+    padding-top: 10px; /* Reduced padding for smaller screens */
+}
+
+.WhyUsTitle {
+    font-weight: bold;
+    font-size: 25px; /* Reduced font size for smaller screens */
+    color: darkblue;
+}
+
+.WhyUsDes {
+    font-weight: bold;
+    font-size: 18px; /* Reduced font size for smaller screens */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .SectionHeader {
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .ImplementationImageHolder {
+        padding-top: 2px;
+        padding-bottom: 5px;
+    }
+
+    .WhyUsHolder {
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    .WhyUsTitle {
+        font-size: 20px;
+    }
+
+    .WhyUsDes {
+        font-size: 16px;
+    }
+}
+
+/* Media query for larger screens */
+@media (min-width: 1200px) {
+    .SectionHeader {
+        font-size: 60px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .ImplementationImageHolder {
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+
+    .WhyUsHolder {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .WhyUsTitle {
+        font-size: 40px;
+    }
+
+    .WhyUsDes {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,36 @@
+.TakingInput{
+    padding: 10px;
+    width: 380px;
+}
+
+.TabName{
+    font-weight: bold;
+    font-size: 35px; /* Reduced font size for smaller screens */
+    color: darkblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ContactUsImage {
+    max-width: 6600px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactUsImage img {
+    width: auto; /* Set the desired width */
+    height: auto; /* Set the desired height */
+}
+
+.AllHolderNew {
+    background: rgba(255, 255, 255, 0.7) url(https://www.genscript.com/gsimages/index/index-top-bg-2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-content: center;
+    min-height: 100vh; /* Changed from min-height: 100%; to ensure full viewport height */
+    text-align: center;
+    background-blend-mode: darken;
+    position: relative; /* Changed from position: fixed; to allow scrolling */
+}

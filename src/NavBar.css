@@ -1,0 +1,16 @@
+.NavButton{
+    font-weight: bold;
+}
+
+.NavComp{
+    padding-right: 10px;
+}
+
+.NavHolder{
+    padding-top: 30px;
+}
+
+.CompanyTitle{
+    padding-left: 25px;
+    width: 350px;
+}

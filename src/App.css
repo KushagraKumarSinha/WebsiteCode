@@ -1,0 +1,68 @@
+.HomeScreen {
+    background: rgba(255, 255, 255, 0.7) url(https://www.genscript.com/gsimages/index/index-top-bg-2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-content: center;
+    min-height: 100vh; /* Changed from min-height: 100%; to ensure full viewport height */
+    text-align: center;
+    background-blend-mode: darken;
+    position: relative; /* Changed from position: fixed; to allow scrolling */
+}
+
+.PhraseDisplay {
+    color: white;
+    font-weight: bold;
+    font-size: 40px; /* Reduced font size for smaller screens */
+    filter: brightness(100%);
+}
+
+.PhraseDisplay1 {
+    color: rgb(169, 161, 236);
+    font-weight: bold;
+    font-size: 100px; /* Reduced font size for smaller screens */
+    filter: brightness(100%);
+    padding-bottom: 20px; /* Reduced padding for smaller screens */
+}
+
+.DescriptionHolder {
+    font-weight: bold;
+    color: rgb(129, 210, 237);
+    font-size: 50px; /* Reduced font size for smaller screens */
+    padding-top: 50px; /* Reduced padding for smaller screens */
+    filter: brightness(100%);
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .PhraseDisplay {
+        font-size: 30px;
+    }
+
+    .PhraseDisplay1 {
+        font-size: 60px;
+        padding-bottom: 10px;
+    }
+
+    .DescriptionHolder {
+        font-size: 18px;
+        padding-top: 30px;
+    }
+}
+
+/* Media query for larger screens */
+@media (min-width: 1200px) {
+    .PhraseDisplay {
+        font-size: 50px;
+    }
+
+    .PhraseDisplay1 {
+        font-size: 100px;
+        padding-bottom: 40px;
+    }
+
+    .DescriptionHolder {
+        font-size: 24px;
+        padding-top: 150px;
+    }
+}

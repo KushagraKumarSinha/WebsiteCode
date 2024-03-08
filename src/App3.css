@@ -1,0 +1,27 @@
+.ProductHolder{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 380px;
+}
+
+.ProTitle{
+    font-weight: bold;
+    font-size: 25px;
+    color: darkblue;
+}
+
+.ProDes{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ProInfo{
+    font-weight: bold;
+    font-size: 15;
+}
+
+.OurServicesHolder{
+    width: 380px;
+}

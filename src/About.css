@@ -1,0 +1,54 @@
+.Text1 {
+    font-size: 25px; /* Reduced font size for smaller screens */
+    font-weight: bold;
+    color: white;
+    padding-bottom: 10px; /* Reduced padding for smaller screens */
+}
+
+.Text2 {
+    font-size: 30px; /* Reduced font size for smaller screens */
+    font-weight: bold;
+    color: rgb(9, 9, 121);
+    padding-top: 5px; /* Reduced padding for smaller screens */
+    padding-bottom: 10px; /* Reduced padding for smaller screens */
+}
+
+.ImgHol {
+    padding-bottom: 10px; /* Reduced padding for smaller screens */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .Text1 {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+
+    .Text2 {
+        font-size: 25px;
+        padding-top: 3px;
+        padding-bottom: 5px;
+    }
+
+    .ImgHol {
+        padding-bottom: 5px;
+    }
+}
+
+/* Media query for larger screens */
+@media (min-width: 1200px) {
+    .Text1 {
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+
+    .Text2 {
+        font-size: 45px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .ImgHol {
+        padding-bottom: 30px;
+    }
+}
